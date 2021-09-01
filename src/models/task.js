@@ -15,8 +15,8 @@ const taskSchema = mongoose.Schema({
         required: true,
         ref: 'User'
     }
-},{
-    timestamps:true
+}, {
+    timestamps: true
 }
 )
 
